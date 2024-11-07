@@ -542,6 +542,11 @@ body:not(.user-is-tabbing) a:focus {
   margin-top: var(--gutter-small);
 }
 
+.btn--small {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
 /* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
@@ -578,8 +583,39 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Contact ----- */
 /* --------------------------------------- */
 
-.contact__info {
-  max-width: var(--container-medium-width);
+.contact__info p {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  color: var(--white-1);
+}
+
+.contact__list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.contact__list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.contact__icon {
+  font-size: 1.5rem;
+  color: var(--pink);
+  margin-right: 1rem;
+}
+
+.contact__link {
+  color: var(--white-1);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact__link:hover {
+  color: var(--pink);
+  text-decoration: underline;
 }
 
 /* --------------------------------------- */
